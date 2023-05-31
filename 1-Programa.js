@@ -6,5 +6,5 @@ console.log(idade);
 console.log(idade+2);
 
 const idadesomada = idade+2;
-
 console.log(idadesomada);
+
