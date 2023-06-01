@@ -11,12 +11,17 @@ const listaDeDestinos = new Array(
     minasGerais,
 );
 
+const idadeComprador = 18;
 console.log("Destinos possíveis");
 console.log(salvador, saoPaulo, rioDeJaneiro, minasGerais);
 console.log(listaDeDestinos);
 
-
-listaDeDestinos.splice(1,1); //removenod um item se a pessao for maior de idade
+if(idadeComprador>=18){
+     console.log("Comprador maior de idade");
+    listaDeDestinos.splice(1,1); //removendo um item se a pessao for maior de idade
+}else{
+console.log("comprador não é maior de idade e não posso vender");
+}
 
 
 console.log(listaDeDestinos);
