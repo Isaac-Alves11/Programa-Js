@@ -10,3 +10,4 @@ console.log("10" / "2");
 console.log("Ricardo" / "2");
 //Aqui o meu comando não irá funcionar, porque, como o nome "Ricardo" não é um número, o sitema irá definir como um erro "NAN" (Not a number)!
 
+console.log(6.5);
